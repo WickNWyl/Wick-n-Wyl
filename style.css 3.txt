@@ -1,0 +1,103 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffaf7;
+  color: #444;
+}
+
+header {
+  background-color: #fde2e4;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #a15e72;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #a15e72;
+  font-weight: bold;
+}
+
+.hero {
+  background: #f9f3f1;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #b7999c;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #776d6f;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  background: #fff;
+}
+
+.product {
+  text-align: center;
+  border: 1px solid #f2dcdc;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff0f3;
+  transition: transform 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.02);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product h3 {
+  color: #a15e72;
+  margin-top: 10px;
+}
+
+.product p {
+  color: #776d6f;
+}
+
+section#about, section#contact {
+  padding: 40px 20px;
+  background: #fef6f6;
+  text-align: center;
+}
+
+section#about h2, section#contact h2 {
+  color: #a15e72;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #fde2e4;
+  color: #a15e72;
+  font-size: 0.9rem;
+}

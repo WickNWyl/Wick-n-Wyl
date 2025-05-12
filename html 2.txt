@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glow & Bloom Candles</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Glow & Bloom Candles</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hand-poured. Heart-warming. Home-loving.</h2>
+    <p>Discover our exclusive collection of handcrafted pastel candles.</p>
+  </section>
+
+  <section id="products" class="product-grid">
+    <div class="product">
+      <a href="product1.html"><img src="images/product1.jpg" alt="Candle 1" /></a>
+      <h3>Lavender Dreams</h3>
+      <p>$12.99</p>
+    </div>
+    <div class="product">
+      <a href="product2.html"><img src="images/product2.jpg" alt="Candle 2" /></a>
+      <h3>Peachy Glow</h3>
+      <p>$14.99</p>
+    </div>
+    <div class="product">
+      <a href="product3.html"><img src="images/product3.jpg" alt="Candle 3" /></a>
+      <h3>Mint Whisper</h3>
+      <p>$11.99</p>
+    </div>
+    <div class="product">
+      <a href="product4.html"><img src="images/product4.jpg" alt="Candle 4" /></a>
+      <h3>Rose Blush</h3>
+      <p>$13.99</p>
+    </div>
+    <div class="product">
+      <a href="product5.html"><img src="images/product5.jpg" alt="Candle 5" /></a>
+      <h3>Vanilla Mist</h3>
+      <p>$15.99</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Glow & Bloom, we believe in warmth, comfort, and eco-friendly elegance. All our candles are handmade with soy wax and natural fragrances.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email us at: hello@glowbloomcandles.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Glow & Bloom Candles. All rights reserved.</p>
+  </footer>
+</body>
+</html>
